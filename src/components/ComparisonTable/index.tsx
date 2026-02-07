@@ -43,11 +43,13 @@ const ComparisonTable = () => {
         <S.TableWrapper>
           <S.Table>
             <S.TableHeader>
-              <S.HeaderCell></S.HeaderCell>
-              <S.HeaderCell variant="highlight">
-                <img src="/svg/logo.svg" alt="Logo Contabilidade.com" />
-              </S.HeaderCell>
-              <S.HeaderCell>Contabilidade tradicional</S.HeaderCell>
+              <tr>
+                <S.HeaderCell></S.HeaderCell>
+                <S.HeaderCell variant="highlight">
+                  <img src="/svg/logo.svg" alt="Logo Contabilidade.com" />
+                </S.HeaderCell>
+                <S.HeaderCell>Contabilidade tradicional</S.HeaderCell>
+              </tr>
             </S.TableHeader>
 
             <S.TableBody>
