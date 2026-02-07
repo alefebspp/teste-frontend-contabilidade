@@ -1,78 +1,14 @@
-<h1 align="center">
-  <img alt="React" src="./.github/logo.png" />
-</h1>
+# Como rodar o projeto:
 
-<p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/melquisedecfelipe/react-vite.svg">
+- Instalar depedências com algum package manager. Ex: rodar o comando yarn ou npm install
+- Executar o projeto com o comando dev. Ex: com yarn executar "yarn dev" ou com npm executar "npm run dev"
 
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/melquisedecfelipe/react-vite.svg">
+# Versão do node recomendada
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/melquisedecfelipe/react-vite.svg">
+Realizei o teste com a versão 20.12.1, mas pode ser que versões antigas também funcionem.
 
-  <a href="https://github.com/melquisedecfelipe/react-vite/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/melquisedecfelipe/react-vite.svg">
-  </a>
+# Decisões técnicas
 
-  <a href="https://github.com/melquisedecfelipe/react-vite/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/melquisedecfelipe/react-vite.svg">
-  </a>
+Escolhi styled-components por ser uma lib que já utilizei antes, então tenho bastante familiaridade e praticidade. Além disso, como estamos executando apenas código client-side, a escolha da lib não irá prejudicar o projeto como um todo.
 
-  <img alt="GitHub" src="https://img.shields.io/github/license/melquisedecfelipe/react-vite.svg">
-</p>
-
-<p align="center">
-  <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-license">License</a>
-</p>
-
-## :rocket: Technologies
-
-This project was developed with the following technologies:
-
-- [Eslint](https://eslint.org/)
-- [Husky](https://github.com/typicode/husky)
-- [Jest](https://jestjs.io/)
-- [React](https://reactjs.org/)
-- [Prettier](https://prettier.io/)
-- [React testing library](https://testing-library.com/docs/react-testing-library/intro)
-- [Storybook](https://storybook.js.org/)
-- [Styled components](https://styled-components.com/)
-- [Typescript](https://www.typescriptlang.org/)
-- [Vite](https://vitejs.dev/)
-
-## :information_source: How To Use
-
-To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v10.16](https://nodejs.org/) or higher + [Yarn v1.13](https://yarnpkg.com/) or higher installed on your computer. From your command line:
-
-```bash
-$ git clone https://github.com/melquisedecfelipe/react-vite my-app
-
-# Go into the repository and install dependencies
-$ cd my-app && yarn
-
-# Run
-$ yarn dev
-```
-
-🔨 Commands
-- `dev`: runs your application on `localhost:3000`
-- `build`: creates the production build version
-- `start`: starts a simple server with the build production code
-- `lint`: runs the linter in all components and pages
-- `test`: runs jest to test all components and pages
-- `test:watch`: runs jest in watch mode
-- `generate`: create a new component structured
-- `storybook`: runs storybook on `localhost:6006`
-- `storybook:build`: create the build version of storybook
-
-## :memo: License
-
-This project is under the MIT license. See the [LICENSE](https://github.com/melquisedecfelipe/react-vite/blob/master/LICENSE) for more information.
-
----
-
-:wave: [Get in touch!](https://www.linkedin.com/in/melquisedecfelipe/)
-# teste-frontend-contabilidade
-# teste-frontend-contabilidade
-# teste-frontend-contabilidade
+Escolhi o swiper para carrossel também por já ter programado com a lib outras vezes. Considero uma lib boa e prática de lidar com carrosséis.
