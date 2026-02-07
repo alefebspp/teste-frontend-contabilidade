@@ -16,9 +16,17 @@ const GlobalStyles = createGlobalStyle`
   }
 
   ${({ theme }) => css`
+    html,
     body {
+      width: 100%;
+      overflow-x: hidden;
       font-family: ${theme.font.family};
       font-size: ${theme.font.sizes.medium};
+    }
+
+    #root {
+      width: 100%;
+      overflow-x: hidden;
     }
   `}
 `

@@ -1,8 +1,8 @@
-import Home from 'components/Home'
-import { ThemeProvider } from 'styled-components'
+import Home from "pages/Home";
+import { ThemeProvider } from "styled-components";
 
-import GlobalStyles from 'styles/global'
-import theme from 'styles/theme'
+import GlobalStyles from "styles/global";
+import theme from "styles/theme";
 
 export default function App() {
   return (
@@ -10,5 +10,5 @@ export default function App() {
       <GlobalStyles />
       <Home />
     </ThemeProvider>
-  )
+  );
 }
